@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "'Hanken Grotesk', sans-serif;";
+    overflow: hidden;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 20px 10px 5px hsla(222, 100%, 98%);
+
+}
+.result{
+    display: inline;
+    background: linear-gradient( to top,
+    hsl(241, 81%, 54%) 30%,
+    hsl(252, 100%, 67%) 70%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+h2{
+    font-size: 18px;
+}
+.result h2{
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+.score{
+    width: 140px;
+   height: 140px;
+   background: linear-gradient(to top,
+
+   hsla(241, 72%, 46%, 0)  ,
+
+   hsla(256, 72%, 46%, 1) 60%);
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   position: relative;
+   border-radius: 70px;
+   margin-left: 40px;
+   margin-top: 21px;
+
+}
+.score .number{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right:5px;
+}
+.score p{
+    font-size: 15px;
+    padding-right: -3px;
+    padding-bottom: 1px;
+}
+.result h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.result .content{
+    width: 220px;
+    padding-bottom: 20px;
+}
+
+/* summary */
+.container .summary{
+    padding: 20px;
+}
+.container .summary .reaction{
+    display: flex;
+    background: hsla(0, 100%, 67%, 0.087);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin: 20px 0 12px 0;
+}
+.reaction img{
+    width: 13px;
+    height: 13px;
+}
+.reaction h4{
+    color: hsl(0, 100%, 67%);
+    padding-right: 40px;
+    padding-left: 8px;
+}
+.reaction p{
+    font-weight: bold;
+}
+.reaction p span{
+    font-weight: 100;
+    color: grey;
+}
+/*  */
+.container .summary .memory{
+    display: flex;
+    background: hsl(39, 100%, 56%, 0.087);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin: 0 0 12px 0;
+
+}
+.memory img{
+    width: 13px;
+    height: 13px;
+}
+.memory h4{
+    color: hsl(39, 100%, 56%);
+    padding-right: 40px;
+    padding-left: 8px;
+}
+.memory p{
+    font-weight: bold;
+}
+.memory p span{
+    font-weight: 100;
+    color: grey;
+}
+/*  */
+.container .summary .verbal{
+    display: flex;
+    background: hsl(166, 100%, 37%, 0.087);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin: 0 0 12px 0;
+
+}
+.verbal img{
+    width: 13px;
+    height: 13px;
+}
+.verbal h4{
+    color: hsl(166, 100%, 37%);
+    padding-right: 50px;
+    padding-left: 8px;
+}
+.verbal p{
+    font-weight: bold;
+}
+.verbal p span{
+    font-weight: 100;
+    color: grey;
+}
+/*  */
+.container .summary .visual{
+    display: flex;
+    background: hsl(234, 85%, 45%, 0.087);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin: 0 0 40px 0;
+
+}
+.visual img{
+    width: 13px;
+    height: 13px;
+}
+.visual h4{
+    color: hsl(234, 85%, 45%);
+    padding-right: 53px;
+    padding-left: 8px;
+}
+.visual p{
+    font-weight: bold;
+    text-align: left;
+}
+.visual p span{
+    font-weight: 100;
+    color: grey;
+}
+/* button */
+.summary .btn{
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(224, 30%, 27%);
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 70px;
+    border-radius: 25px;
+    font-size: 13px;
+}
