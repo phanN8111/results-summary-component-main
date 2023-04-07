@@ -2,8 +2,11 @@
     margin: 0%;
     padding:0%;
     box-sizing: border-box;
-    font-family: "'Hanken Grotesk', sans-serif;";
+    font-family: sans-serif;
     overflow: hidden;
+}
+body{
+    font-family: sans-serif;
 }
 .container{
     position: absolute;
